@@ -214,8 +214,15 @@ fun DeveloperSettingsScreen(onBackPressedDispatcher: OnBackPressedDispatcher?) {
                         options = linkedMapOf(
                             0 to stringResource(R.string.preference_launch_delay_instant),
                             1 to pluralStringResource(R.plurals.preference_launch_delay_value, 1, 1),
+                            2 to pluralStringResource(R.plurals.preference_launch_delay_value, 2, 2),
                             3 to pluralStringResource(R.plurals.preference_launch_delay_value, 3, 3),
+                            4 to pluralStringResource(R.plurals.preference_launch_delay_value, 4, 4),
                             5 to pluralStringResource(R.plurals.preference_launch_delay_value, 5, 5),
+                            6 to pluralStringResource(R.plurals.preference_launch_delay_value, 6, 6),
+                            7 to pluralStringResource(R.plurals.preference_launch_delay_value, 7, 7),
+                            8 to pluralStringResource(R.plurals.preference_launch_delay_value, 8, 8),
+                            9 to pluralStringResource(R.plurals.preference_launch_delay_value, 9, 9),
+                            10 to pluralStringResource(R.plurals.preference_launch_delay_value, 10, 10),
                         )
                     )
 
