@@ -358,6 +358,9 @@ fun GameplaySettingsGroup() {
                     "16_10" to stringResource(R.string.preference_custom_aspect_ratio_16x10),
                     "4_3" to stringResource(R.string.preference_custom_aspect_ratio_4x3),
                     "1_1" to stringResource(R.string.preference_custom_aspect_ratio_1x1),
+                    "9_16" to stringResource(R.string.preference_custom_aspect_ratio_9x16),
+                    "10_16" to stringResource(R.string.preference_custom_aspect_ratio_10x16),
+                    "3_4" to stringResource(R.string.preference_custom_aspect_ratio_3x4),
                 )
             )
         }
@@ -368,7 +371,7 @@ fun GameplaySettingsGroup() {
             dialogTitle = stringResource(R.string.preference_screen_zoom_select),
             preferenceKey = PreferenceUtils.Key.SCREEN_ZOOM,
             labelSuffix = "x",
-            range = 25..100,
+            range = 01..200,
             scale = 100,
             step = 5,
         ) {
