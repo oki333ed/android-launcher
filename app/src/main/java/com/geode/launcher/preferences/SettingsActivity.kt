@@ -371,7 +371,7 @@ fun GameplaySettingsGroup() {
             dialogTitle = stringResource(R.string.preference_screen_zoom_select),
             preferenceKey = PreferenceUtils.Key.SCREEN_ZOOM,
             labelSuffix = "x",
-            range = 01..200,
+            range = 1..200,
             scale = 100,
             step = 5,
         ) {
